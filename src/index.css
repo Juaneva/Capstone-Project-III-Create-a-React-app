@@ -1,0 +1,77 @@
+body {
+  font-size: 20px;
+  margin: 0;
+  font-family: cursive;
+}
+
+/*Change curser of button to pointer*/
+button{
+  cursor: pointer;
+}
+
+/*Display size of the display word*/
+.guessWordDisplay{
+  font-size: 35px;
+  font-family: cursive;
+}
+
+/*Set the buttons colors and font*/
+.alphabet-0{
+ font-family: cursive;
+ font-size: 25px;
+ background-color: black;
+ color: hotpink;
+ font-weight: 600;
+ border-radius: 0;
+ }
+
+ .alphabet-0:hover {
+ font-family: cursive;
+ font-size: 25px;
+ background-color: hotpink;
+ color: black;
+ font-weight: 600;
+ border-radius: 0;
+ }
+
+.alphabet-1{
+ font-family: cursive;
+ font-size: 25px;
+ background-color: rgb(49, 255, 49);
+ border-radius: 0;
+ color: black;
+}
+.alphabet-2{
+ font-family: cursive;
+ font-size: 25px;
+ background-color: rgb(255, 81, 81);
+ border-radius: 0;
+ color: black;
+}
+
+button{
+  font-family: cursive;
+  font-size: 25px;
+  color:hotpink;
+  font-weight: bolder;
+  background-color: black;
+  border-radius: 20px;
+}
+
+button:hover {
+  font-family: cursive;
+  font-size: 25px;
+  color:black;
+  font-weight: bolder;
+  background-color: hotpink;
+}
+
+/*Set the image size and padding*/
+.hangmanImage{
+  width: 150px;
+  height: 200px;
+}
+.gameOverImage{
+  width: 250px;
+  height: 250px;
+}
